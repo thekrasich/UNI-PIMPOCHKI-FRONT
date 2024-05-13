@@ -1,36 +1,70 @@
-# Commit message conventions
+# Getting Started with Create React App
 
-To maintain a clear and consistent project history we follow a simplified convention for our commit messages. This helps in quickly understanding the purpose of each change and assists in automated changelog generation.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Types of commits
+## Available Scripts
 
-### Feature
+In the project directory, you can run:
 
-- **Purpose:** Introduce new features or significant enhancements.
-- **Prefix:** `feature:`
-- **Example:** `feature: implement jwt authentication, feature: add product service`
+### `npm start`
 
-### Fix
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Purpose:** Fix issues or bugs in the software.
-- **Prefix:** `fix:`
-- **Example:** `fix: login error via local strategy, fix: incorrect validations for products`
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Update
+### `npm test`
 
-- **Purpose:** Implement minor changes or improvements that don't add new features or fix bugs. This includes small enhancements, dependency updates or other miscellaneous changes.
-- **Prefix:** `update:`
-- **Example:** `update: improve product validation logic, update: upgrade .NET 7 to .NET 8`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Refactoring
+### `npm run build`
 
-- **Purpose:** Reorganize or improve existing code without changing its external behavior. This is typically used for code clean-up simplifying structures or improving readability without affecting functionality.
-- **Prefix:** `refactoring:`
-- **Example:** `refactoring: remove unused usings, refactoring: rename ambiguous variables in auth service`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Writing commit messages
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Start with the appropriate prefix (`feature:`, `fix:`, `update:`, `refactoring:`) to clearly indicate the type of change.
-- Write the message in the imperative mood as if giving a command: "add", "fix", "improve", etc.
-- Keep the message concise but descriptive enough to understand the context and purpose of the change without needing to look at the code changes.
-- Write messages in lower case for consistency
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
