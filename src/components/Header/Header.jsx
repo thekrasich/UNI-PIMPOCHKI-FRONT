@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import styles from "../../styles/Header.module.css";
 import { ROUTES } from "../../utils/routes";
 
-import LOGO from "../../images/logo.png"
-import AVATAR from "../../images/avatar.png"
+const LOGO = "../images/logo.png"
+const AVATAR = "../images/avatar.png"
 
 const Header =() =>{
     return (

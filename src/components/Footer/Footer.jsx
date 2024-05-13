@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import styles from "../../styles/Footer.module.css";
 import { ROUTES } from "../../utils/routes";
-
-import LOGO from "../../images/logo.png"
+const LOGO = "../images/logo.png"
 const Footer = () => {
     return(
         <section className={styles.footer}>
