@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import "./styles/index.css";
 
 import { store } from "./features/store";
-import App from './components/App';
+import App from './App/App';
 
 
 createRoot(document.getElementById("root")).render(
