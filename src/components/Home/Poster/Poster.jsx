@@ -1,8 +1,8 @@
 import React from "react";
 
-import styles from "./styles/Home.module.css";
+import styles from "./Home.module.css";
 
-const BG = "../images/casa.png";
+const BG = "../images/kasa.png";
 
 const Poster = () => (
   <section className={styles.home}>
