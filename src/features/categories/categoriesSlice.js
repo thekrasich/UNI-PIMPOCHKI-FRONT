@@ -10,7 +10,7 @@ export const getCategories = createAsyncThunk(
             return res.data;
         } catch (err) {
       console.log(err);
-      return thunkAPI.rejectWithValue(err);
+      return thunkAPI.rejectWithValue([]);
         }
     }
 );
@@ -19,12 +19,15 @@ const categoriesSlice = createSlice({
     name: "categories",
     initialState: {
     list: [],
+    isLoading: false,
+    error: null,
   },
   extraReducers: (builder) => {
     builder.addCase(getCategories.pending, (state) => {
         state.isLoading = true;
+        state.error = null;
     });
-    builder.addCase(getCategories.fullfilled, (state, { payload }) => {
+    builder.addCase(getCategories.fulfilled, (state, { payload }) => {
         state.list = payload;
         state.isLoading = false;
     });
