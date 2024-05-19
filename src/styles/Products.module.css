@@ -51,6 +51,12 @@
     margin-top: 5px;
     margin-bottom: 28px;
   }
+
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
   
   .info {
     margin-top: auto;
